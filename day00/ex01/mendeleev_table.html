@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Переодическая таблица Менделеева</title>
+		<style type="text/css">
+			body
+			{		min-width: 1000px;
+					background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2019/01/Breaking-Bad-Movie-Characters.jpg);
+					width: 100%;
+					background-size: 150%;
+			}
+			.box
+			{
+					width: 60px;
+					height: 60px;
+					border: 1px solid black;
+					text-align: center;
+			}
+			table
+			{
+				margin-top: 10%;
+				border-collapse: collapse;
+				width: 100%;
+			}
+			.free-space
+			{
+				border: none;
+				width: 60px;
+				height: 60px;
+			}
+			.el_number
+			{
+				text-align: left;
+				font-size: 10px;
+				margin: 0px;
+			}
+			.el_name
+			{
+				text-align: center;
+				margin: 0px;
+			}
+			.el_mass
+			{
+				text-align: right;
+				font-size: 10px;
+				margin: 0px;
+			}
+			#orange
+			{
+				background-color: #ff8c00;
+			}
+			#blue
+			{
+				background-color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<!-- 1st row-->
+			<tr>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+				<td class="free-space" ></td>
+				<td class="free-space" colspan="15"></td>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+			<!-- 2st row-->
+			<tr>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+				<td class="box" >
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+				<td colspan="10" class="free-space"></td>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+			<!-- 3st row-->
+			<tr>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+				<td colspan="10" class="free-space"></td>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+			<!-- 4st row-->
+			<tr>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+			<!-- 5st row-->
+			<tr>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+			<!-- 6st row-->
+			<tr>
+				<td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="free-space">
+
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+			<!-- 7st row-->
+			<tr >
+				<td class="box" style="border-bottom: 0px">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" style="border-bottom: 0px">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="free-space" style="border-bottom: 0px">
+
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+			<!-- free space -->
+			<tr>
+				<td class="box" style="border-left: 0px solid red; border-bottom: 0px solid red; border-right: 0px solid red;"></td>
+				<td class="box" style="border-left: 0px solid red; border-bottom: 0px solid red; border-right: 0px solid red;"></td>
+			</tr>
+			<!-- 8 row-->
+			<tr>
+				<td colspan="3" class="free-space"></td>
+
+				<td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="blue">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+
+			<tr >
+				<td colspan="3" class="free-space" ></td>
+
+				<td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass" id="orange">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass" id="orange">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass" id="orange">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td><td class="box" id="orange">
+					<p class ="el_mass">1.011</p>
+					<p class = "el_name">H</p>
+					<p class = "el_number">1</p>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
